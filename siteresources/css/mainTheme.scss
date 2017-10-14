@@ -4,10 +4,10 @@
 $background_color: #CCB8A9;
 $menu_background_color: #031634;
 $menu_color: #FFF;
+$menu_link_color: #036564;
 $article_background_color: #E8DDCB;
-$link_color: #036564;
-
-
+$link_color: #2196F3;
+$link_hover_color: #17598a;
 
 body {
     background: $background_color;
@@ -28,7 +28,7 @@ header {
             display: inline-block;
 
             a {
-                color: $menu_color;
+                color: $menu_link_color;
                 display: inline-block;
                 font-size: 18px;
                 padding: 20px;
@@ -36,7 +36,7 @@ header {
             }
 
             a:hover {
-                color: $link_color;
+                color: $menu_link_color;
             }
         }
     }
@@ -49,8 +49,18 @@ article {
     margin: 25px auto;
     padding: 50px 25px;
     width: 90%;
+    
+    img {
+        width: 100%;
+    }
+
+    a{
+        color: $link_color;
+        text-decoration: none;   
+    }
+    a:hover{
+        color: $link_hover_color;
+    }
 }
 
-img {
-    width: 100%;
-}
+
