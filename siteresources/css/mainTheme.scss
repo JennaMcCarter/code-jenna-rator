@@ -4,7 +4,8 @@
 $background_color: #CCB8A9;
 $menu_background_color: #031634;
 $menu_color: #FFF;
-$menu_link_color: #036564;
+$menu_link_color: #FFF;
+$menu_link_hover_color: #036564;
 $article_background_color: #E8DDCB;
 $link_color: #2196F3;
 $link_hover_color: #17598a;
@@ -36,7 +37,7 @@ header {
             }
 
             a:hover {
-                color: $menu_link_color;
+                color: $menu_link_hover_color;
             }
         }
     }
